@@ -10,7 +10,7 @@ This project is a simple Flask API that uses the Ollama library to perform langu
 - [Example](#example)
 
 ## Requirements
-- Python 3.x
+- Python 3.10+
 - Flask library
 - Ollama library
 - Moondream 2 model installed in Ollama
@@ -29,8 +29,12 @@ This project is a simple Flask API that uses the Ollama library to perform langu
    pip install flask ollama
    ```
 
-4. Install the Moondream model from Ollama:
-   - Download the Moondream 2 model using the Ollama library (refer to Ollama documentation for details).
+4. Download and setup [Ollama installer](https://github.com/ollama/ollama)
+   
+6. Pull the Moondream model from Ollama:
+   ```bash
+   ollama pull moondream
+   ```
 
 ## Usage
 
