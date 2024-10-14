@@ -11,8 +11,6 @@ This project is a simple Flask API that uses the Ollama library to perform langu
 
 ## Requirements
 - Python 3.10+
-- Flask library
-- Ollama library
 - Moondream 2 model installed in Ollama
 
 ## Installation
@@ -26,7 +24,7 @@ This project is a simple Flask API that uses the Ollama library to perform langu
 
 3. Install the required libraries:
    ```bash
-   pip install flask ollama
+   pip install -r requirements.txt
    ```
 
 4. Download and setup [Ollama installer](https://github.com/ollama/ollama)
