@@ -19,7 +19,7 @@ This project is a simple Flask API that uses the Ollama library to perform langu
 2. Set up a virtual environment (optional but recommended):
    ```bash
    python -m venv venv
-   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   `venv\Scripts\activate`
    ```
 
 3. Install the required libraries:
@@ -53,7 +53,6 @@ You can use `curl` to send a POST request:
 curl -X POST -H "Content-Type: application/json" -d "{\"prompt\": \"Hello, how are you?\"}" http://127.0.0.1:5000/inference
 ```
 
-Or use any HTTP client like **Postman** or **Insomnia** to test the endpoint.
 
 ## Example
 
@@ -92,4 +91,3 @@ The API responds with a JSON object containing the model name and response:
 ## Notes
 
 - Make sure to have the "Moondream" model downloaded and set up correctly with the Ollama library.
-- The Flask app runs in debug mode by default. Disable debug mode in a production environment.
